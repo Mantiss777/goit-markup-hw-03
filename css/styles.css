@@ -89,12 +89,8 @@ body {
 
 /* Header */
 .header {
-	width: 1600px;
-	margin-left: auto;
-	margin-right: auto;
-
 	background-color: var(--wite-color);
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border: 1px solid var(--border-color);
 	}
 
 .header .container{
@@ -294,13 +290,21 @@ body {
 	text-align: center;
 }
 
+.team-list .member-team{
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+
+
+.personal-data{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 /* Footer */
 .footer{
-	width: 1600px;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	margin-left: auto;
-	margin-right: auto;
 
 	background-color: var(--accent-bg-color);
 }
